@@ -1,4 +1,5 @@
   
+  
 let c = document.getElementById("my-canvas");
 let ctx = c.getContext("2d");
 
@@ -10,7 +11,7 @@ let loadImage = (src, callback) => {
 };
 
 let imagePath = (frameNumber, animation) => {
-  return "C:/Users/ASUS/Documents/PupilFirst/MartialArtsGame/images/"+animation+"/"+frameNumber+".png";
+  return "images/"+animation+"/"+frameNumber+".png";
 };
 
 let frames = {
